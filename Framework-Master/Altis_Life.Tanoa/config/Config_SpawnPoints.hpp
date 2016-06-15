@@ -21,8 +21,8 @@
 class CfgSpawnPoints {
     class Civilian {
         class Kavala {
-            displayName = "Kavala";
-            spawnMarker = "civ_spawn_1";
+            displayName = "George Town";
+            spawnMarker = "civ_spawn_george";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "rebel", false } };
             level[] = { "", "", -1 };
