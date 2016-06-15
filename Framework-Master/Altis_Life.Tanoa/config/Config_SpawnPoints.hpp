@@ -20,7 +20,7 @@
 */
 class CfgSpawnPoints {
     class Civilian {
-        class Kavala {
+        class George {
             displayName = "George Town";
             spawnMarker = "civ_spawn_george";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -28,25 +28,17 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
         };
 
-        class Athira {
-            displayName = "Athira";
-            spawnMarker = "civ_spawn_3";
+        class Rochelle {
+            displayName = "La Rochelle";
+            spawnMarker = "civ_spawn_rochelle";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
 
-        class Pyrgos {
-            displayName = "Pyrgos";
-            spawnMarker = "civ_spawn_2";
-            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-            licenses[] = { { "", true } };
-            level[] = { "", "", -1 };
-        };
-
-        class Sofia {
-            displayName = "Sofia";
-            spawnMarker = "civ_spawn_4";
+        class Kotomo {
+            displayName = "Kotomo";
+            spawnMarker = "civ_spawn_kotomo";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
@@ -79,7 +71,7 @@ class CfgSpawnPoints {
 
     class Cop {
         class Kavala {
-            displayName = "Kavala HQ";
+            displayName = "George Town HQ";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
